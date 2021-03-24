@@ -11,7 +11,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
   return (
     <div className='post'>
       <div className='post__avatar'>
-        <Avatar src='' />
+        <Avatar src='https://pbs.twimg.com/profile_images/1330440540257726464/tn-Qj5cC_400x400.jpg' />
       </div>
       <div className='post__body'>
         <div className='post__header'>
