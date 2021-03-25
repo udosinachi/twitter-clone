@@ -11,26 +11,24 @@ function Post({ displayName, username, verified, text, image, avatar }) {
   return (
     <div className='post'>
       <div className='post__avatar'>
-        <Avatar src='https://pbs.twimg.com/profile_images/1330440540257726464/tn-Qj5cC_400x400.jpg' />
+        <Avatar src={avatar} />
       </div>
       <div className='post__body'>
         <div className='post__header'>
           <div className='post__headerText'>
             <h3>
-              Udosinachi{' '}
+              {displayName}{' '}
               <span className='post__headerSpecial'>
-                <VerifiedUserIcon className='post__badge' /> @udosinachii
+                {verified && <VerifiedUserIcon className='post__badge' />}{' '}
+                {username}
               </span>
             </h3>
           </div>
           <div className='post__headerDescription'>
-            <p>I challange you to build a Twitter clone</p>
+            <p>{text}</p>
           </div>
         </div>
-        <img
-          src='https://media.giphy.com/media/3o7ZeppMPbIJV2J1h6/giphy.gif'
-          alt=''
-        />
+        <img src={image} alt='' />
         <div className='post__footer'>
           <ChatBubbleOutlineIcon fontSize='small' />
           <RepeatIcon fontSize='small' />
