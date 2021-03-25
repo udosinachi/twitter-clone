@@ -34,20 +34,22 @@ function TweetBox() {
             type='text'
           />
         </div>
-        <input
-          value={tweetImage}
-          onChange={(e) => setTweetImage(e.target.value)}
-          className='tweetBox__imageInput'
-          placeholder='Optional: Enter image URL'
-          type='text'
-        />
-        <Button
-          type='submit'
-          onClick={sendTweet}
-          className='tweetBox__tweetButton'
-        >
-          Tweet
-        </Button>
+        <div className='input__flex'>
+          <input
+            value={tweetImage}
+            onChange={(e) => setTweetImage(e.target.value)}
+            className='tweetBox__imageInput'
+            placeholder='Optional: Enter image URL'
+            type='text'
+          />
+          <Button
+            type='submit'
+            onClick={sendTweet}
+            className='tweetBox__tweetButton'
+          >
+            Tweet
+          </Button>
+        </div>
       </form>
     </div>
   )
