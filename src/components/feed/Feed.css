@@ -2,7 +2,8 @@
   flex: 0.4;
   border-right: 1px solid var(--twitter-background);
   min-width: fit-content;
-  overflow-y: scroll;
+  overflow-y: auto;
+  height: 100%;
 }
 
 .feed::-webkit-scrollbar {

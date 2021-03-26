@@ -47,3 +47,15 @@
   height: 40px !important;
   margin-left: auto !important;
 }
+
+.box__icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin-left: 50px;
+  color: var(--twitter-color);
+}
+
+.box__singleIcon {
+  cursor: pointer;
+}
