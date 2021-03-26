@@ -1,11 +1,7 @@
 import React from 'react'
 import './Widgets.css'
-import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterTweetEmbed,
-} from 'react-twitter-embed'
 import SearchIcon from '@material-ui/icons/Search'
+import SettingsIcon from '@material-ui/icons/Settings'
 
 function Widgets() {
   return (
@@ -16,9 +12,52 @@ function Widgets() {
       </div>
 
       <div className='widgets__widgetContainer'>
-        <h2>What's Happening</h2>
+        <h2>
+          Nigeria Trends <SettingsIcon className='widgets__settingsIcon' />
+        </h2>
 
-        <TwitterTweetEmbed tweetId={'1374373725919846412'} />
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>1. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>2. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>3. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>4. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>5. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <h4 className='show'>Show More</h4>
+          </div>
+        </div>
+
+        {/*<TwitterTweetEmbed tweetId={'1374373725919846412'} />
         <TwitterTimelineEmbed
           sourceType='profile'
           screenName='udosinachii'
@@ -27,7 +66,64 @@ function Widgets() {
         <TwitterShareButton
           url={'https://facebook.com/udosinachi'}
           options={{ text: '#reactjs is awesome', via: 'udosinachii' }}
+        />*/}
+      </div>
+      <div className='widgets__widgetContainer'>
+        <h2>
+          Nigeria Trends <SettingsIcon className='widgets__settingsIcon' />
+        </h2>
+
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>1. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>2. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>3. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>4. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <p>5. Trending</p>
+            <h3>#Anything for Now</h3>
+            <p>21.1k Tweets</p>
+          </div>
+        </div>
+        <div className='trends'>
+          <div className='first-trend'>
+            <h4 className='show'>Show More</h4>
+          </div>
+        </div>
+
+        {/*<TwitterTweetEmbed tweetId={'1374373725919846412'} />
+        <TwitterTimelineEmbed
+          sourceType='profile'
+          screenName='udosinachii'
+          options={{ height: 400 }}
         />
+        <TwitterShareButton
+          url={'https://facebook.com/udosinachi'}
+          options={{ text: '#reactjs is awesome', via: 'udosinachii' }}
+        />*/}
       </div>
     </div>
   )

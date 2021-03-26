@@ -10,7 +10,7 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import ListAltIcon from '@material-ui/icons/ListAlt'
 import PermIdentityIcon from '@material-ui/icons/PermIdentity'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz'
-import { Button } from '@material-ui/core'
+import { Button, Avatar } from '@material-ui/core'
 
 const Sidebar = () => {
   return (
@@ -29,6 +29,14 @@ const Sidebar = () => {
       <Button variant='outlined' className='sidebar__tweet' fullWidth>
         Tweet
       </Button>
+
+      <div className='profile'>
+        <Avatar src='https://pbs.twimg.com/profile_images/1330440540257726464/tn-Qj5cC_400x400.jpg' />
+        <div className='profile__text'>
+          <h3>U D O</h3>
+          <p>@udosinachii</p>
+        </div>
+      </div>
     </div>
   )
 }

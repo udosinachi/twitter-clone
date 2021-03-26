@@ -1,5 +1,6 @@
 .widgets {
-  flex: 0.35;
+  flex: 0.32;
+  height: 100vh;
 }
 
 .widgets__input {
@@ -25,7 +26,7 @@
 .widgets__widgetContainer {
   margin-top: 15px;
   margin-left: 20px;
-  padding: 20px;
+  padding: 1px;
   background-color: #f5f8fa;
   border-radius: 20px;
 }
@@ -33,4 +34,34 @@
 .widgets__widgetContainer > h2 {
   font-size: 18px;
   font-weight: 800;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widgets__settingsIcon {
+  color: var(--twitter-color);
+  cursor: pointer;
+}
+
+.trends {
+  padding: 10px;
+  border-top: 0.1px solid var(--twitter-background);
+  cursor: pointer;
+}
+.first-trend {
+  margin: 0;
+  padding: 0;
+}
+.first-trend > p {
+  font-size: 13px;
+  color: grey;
+}
+.first-trend > h3 {
+  font-size: 15px;
+  padding: 5px 0;
+}
+.show {
+  font-size: 15px !important;
+  color: var(--twitter-color) !important;
 }

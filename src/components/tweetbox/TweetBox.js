@@ -11,13 +11,13 @@ function TweetBox() {
     e.preventDefault()
 
     db.collection('posts').add({
-      displayName: 'Chisom Chukwu',
-      username: 'gifted',
+      displayName: 'U D O',
+      username: 'udosinachii',
       verified: true,
       text: tweetMessage,
       image: tweetImage,
       avatar:
-        'https://pbs.twimg.com/profile_images/1192935671473659905/AMUy2VsJ_400x400.jpg',
+        'https://pbs.twimg.com/profile_images/1330440540257726464/tn-Qj5cC_400x400.jpg',
     })
     setTweetImage('')
     setTweetMessage('')
