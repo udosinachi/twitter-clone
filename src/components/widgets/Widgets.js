@@ -2,6 +2,7 @@ import React from 'react'
 import './Widgets.css'
 import SearchIcon from '@material-ui/icons/Search'
 import SettingsIcon from '@material-ui/icons/Settings'
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz'
 
 function Widgets() {
   return (
@@ -18,35 +19,45 @@ function Widgets() {
 
         <div className='trends'>
           <div className='first-trend'>
-            <p>1. Trending</p>
+            <p className='p1'>
+              1. Trending <MoreHorizIcon />
+            </p>
             <h3>#Anything for Now</h3>
             <p>21.1k Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
-            <p>2. Trending</p>
+            <p className='p1'>
+              1. Trending <MoreHorizIcon />
+            </p>
             <h3>#Anything for Now</h3>
             <p>21.1k Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
-            <p>3. Trending</p>
+            <p className='p1'>
+              1. Trending <MoreHorizIcon />
+            </p>
             <h3>#Anything for Now</h3>
             <p>21.1k Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
-            <p>4. Trending</p>
+            <p className='p1'>
+              1. Trending <MoreHorizIcon />
+            </p>
             <h3>#Anything for Now</h3>
             <p>21.1k Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
-            <p>5. Trending</p>
+            <p className='p1'>
+              1. Trending <MoreHorizIcon />
+            </p>
             <h3>#Anything for Now</h3>
             <p>21.1k Tweets</p>
           </div>
