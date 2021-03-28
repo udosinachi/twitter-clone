@@ -2,7 +2,10 @@
   flex: 0.32;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1000px) {
+  .widgets {
+    display: none;
+  }
 }
 
 .widgets__input {

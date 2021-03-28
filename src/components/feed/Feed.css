@@ -9,6 +9,21 @@
     flex: 0.6;
   }
 }
+@media (max-width: 1000px) {
+  .feed {
+    flex: 0.8;
+  }
+}
+@media (max-width: 600px) {
+  .feed {
+    flex: 0.9;
+  }
+}
+@media (max-width: 500px) {
+  .feed {
+    flex: 1;
+  }
+}
 
 .feed::-webkit-scrollbar {
   display: none;

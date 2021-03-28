@@ -32,8 +32,19 @@
   border: none;
   padding: 10px;
   width: 70%;
-  outline: 2px solid var(--twitter-color);
+  outline: 1px solid var(--twitter-color);
   margin-left: auto;
+}
+
+@media (max-width: 700px) {
+  .tweetBox__imageInput {
+    width: 60%;
+  }
+}
+@media (max-width: 450px) {
+  .tweetBox__imageInput {
+    width: 55%;
+  }
 }
 
 .tweetBox__tweetButton {
@@ -51,8 +62,8 @@
 .box__icons {
   display: flex;
   justify-content: space-evenly;
-  width: 200px;
-  margin-left: 50px;
+  width: 100%;
+  margin-left: 40px;
   color: var(--twitter-color);
 }
 

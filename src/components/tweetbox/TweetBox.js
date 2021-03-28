@@ -3,10 +3,6 @@ import React, { useState } from 'react'
 import './TweetBox.css'
 import db from '../../firebase'
 import CropOriginalIcon from '@material-ui/icons/CropOriginal'
-import CardGiftcardIcon from '@material-ui/icons/CardGiftcard'
-import PollOutlinedIcon from '@material-ui/icons/PollOutlined'
-import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon'
-import ScheduleIcon from '@material-ui/icons/Schedule'
 
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState('')
@@ -42,25 +38,21 @@ function TweetBox() {
         <div className='input__flex'>
           <div className='box__icons'>
             <CropOriginalIcon className='box__singleIcon' />
-            <CardGiftcardIcon className='box__singleIcon' />
-            <PollOutlinedIcon className='box__singleIcon' />
-            <InsertEmoticonIcon className='box__singleIcon' />
-            <ScheduleIcon className='box__singleIcon' />
+            <input
+              value={tweetImage}
+              onChange={(e) => setTweetImage(e.target.value)}
+              className='tweetBox__imageInput'
+              placeholder='Optional: Enter image URL'
+              type='text'
+            />
+            <Button
+              type='submit'
+              onClick={sendTweet}
+              className='tweetBox__tweetButton'
+            >
+              Tweet
+            </Button>
           </div>
-          {/*<input
-            value={tweetImage}
-            onChange={(e) => setTweetImage(e.target.value)}
-            className='tweetBox__imageInput'
-            placeholder='Optional: Enter image URL'
-            type='text'
-          />*/}
-          <Button
-            type='submit'
-            onClick={sendTweet}
-            className='tweetBox__tweetButton'
-          >
-            Tweet
-          </Button>
         </div>
       </form>
     </div>

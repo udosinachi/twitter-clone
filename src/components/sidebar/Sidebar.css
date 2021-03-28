@@ -9,12 +9,29 @@
 @media (max-width: 1200px) {
   .sidebar {
     flex: 0.1;
+    padding: 0;
   }
   .sidebar__tweet {
     display: none !important;
   }
   .profile {
     display: none !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    flex: 0.15;
+  }
+}
+@media (max-width: 600px) {
+  .sidebar {
+    flex: 0.1;
+  }
+}
+@media (max-width: 500px) {
+  .sidebar {
+    display: none;
   }
 }
 
