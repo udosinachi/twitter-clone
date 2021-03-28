@@ -1,6 +1,8 @@
 .widgets {
   flex: 0.32;
-  height: 100vh;
+}
+
+@media (max-width: 1199px) {
 }
 
 .widgets__input {
