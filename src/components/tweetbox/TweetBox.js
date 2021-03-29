@@ -13,7 +13,7 @@ function TweetBox() {
 
     db.collection('posts').add({
       displayName: 'U D O',
-      username: 'udosinachii',
+      username: '@udosinachii',
       verified: true,
       text: tweetMessage,
       image: tweetImage,

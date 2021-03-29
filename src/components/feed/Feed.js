@@ -9,7 +9,7 @@ function Feed() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    db.collection('posts').onSnapshot((snapshot) =>
+    db.collection('posts', 'asc').onSnapshot((snapshot) =>
       setPosts(snapshot.docs.map((doc) => doc.data()))
     )
   }, [])
@@ -37,9 +37,9 @@ function Feed() {
 
       <Post
         displayName='U D O'
-        username='udosinachii'
+        username='@udosinachii'
         verified={true}
-        text='different text to be observed'
+        text='Sasuke'
         avatar='https://pbs.twimg.com/profile_images/1330440540257726464/tn-Qj5cC_400x400.jpg'
         image='https://media.giphy.com/media/8Lc5xmvzRhlLy/giphy.gif'
       />

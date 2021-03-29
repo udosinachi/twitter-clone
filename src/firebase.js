@@ -9,6 +9,7 @@ const firebaseConfig = {
   messagingSenderId: '1020806254074',
   appId: '1:1020806254074:web:16976e80023ac2d14aa843',
   measurementId: 'G-4YFMCQ5BSE',
+  time: firebase.database.ServerValue.TIMESTAMP,
 }
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)

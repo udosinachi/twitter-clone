@@ -22,43 +22,43 @@ function Widgets() {
             <p className='p1'>
               1. Trending <MoreHorizIcon />
             </p>
-            <h3>#Anything for Now</h3>
-            <p>21.1k Tweets</p>
+            <h3>#MondayMotivation</h3>
+            <p>30.6k Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
             <p className='p1'>
-              1. Trending <MoreHorizIcon />
+              2. Trending <MoreHorizIcon />
             </p>
-            <h3>#Anything for Now</h3>
-            <p>21.1k Tweets</p>
+            <h3>#mondaythoughts</h3>
+            <p>19k Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
             <p className='p1'>
-              1. Trending <MoreHorizIcon />
+              3. Trending <MoreHorizIcon />
             </p>
-            <h3>#Anything for Now</h3>
-            <p>21.1k Tweets</p>
+            <h3>#MafiaCultureVol2</h3>
+            <p>1,248 Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
             <p className='p1'>
-              1. Trending <MoreHorizIcon />
+              4. Trending <MoreHorizIcon />
             </p>
-            <h3>#Anything for Now</h3>
-            <p>21.1k Tweets</p>
+            <h3>#LagosToAba5k</h3>
+            <p>1,438 Tweets</p>
           </div>
         </div>
         <div className='trends'>
           <div className='first-trend'>
             <p className='p1'>
-              1. Trending <MoreHorizIcon />
+              5. Trending <MoreHorizIcon />
             </p>
-            <h3>#Anything for Now</h3>
+            <h3>#TinubuIsKey</h3>
             <p>21.1k Tweets</p>
           </div>
         </div>
